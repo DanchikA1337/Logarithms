@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Свойства логарифмов</h1>
@@ -23,26 +25,35 @@
         <h2>Основные свойства логарифмов</h2>
         <ul>
             <li><strong>Свойство 1:</strong> <i>logₐ(x * y) = logₐ(x) + logₐ(y)</i> — логарифм произведения равен сумме логарифмов.</li>
-            <li><strong>Свойство 2:</strong> <i>logₐ(x / y) = logₐ(x) - logₐ(y)</i> — логарифм частного равен разности логарифмов.</li>
-            <li><strong>Свойство 3:</strong> <i>logₐ(x^n) = n * logₐ(x)</i> — логарифм степени равен произведению степени на логарифм основания.</li>
+            <li><strong>Свойство 2:</strong> <i>logₐ(x / y) = logₐ(x) − logₐ(y)</i> — логарифм частного равен разности логарифмов.</li>
+            <li><strong>Свойство 3:</strong> <i>logₐ(x <sup>n</sup> ) = n * logₐ(x)</i> — логарифм степени равен произведению степени на логарифм основания.</li>
             <li><strong>Свойство 4:</strong> <i>logₐ(a) = 1</i> — логарифм числа по его собственному основанию равен 1.</li>
             <li><strong>Свойство 5:</strong> <i>logₐ(1) = 0</i> — логарифм числа 1 по любому основанию равен 0.</li>
-            <li><strong>Свойство 6:</strong> <i>log<sub>a</sub> (b<sup>c</sup> · d) = log<sub>a</sub> (b<sup>c</sup>) + log<sub>a</sub> d</i></li>
-            <li><strong>Свойство 7:</strong> <i>log<sub>a</sub> (b<sup>c</sup>) = c · log<sub>a</sub> b</i></li>
-            <li><strong>Свойство 8:</strong> <i>log<sub>a</sub> (x) = log<sub>b</sub> (x) / log<sub>b</sub> (a)</i></li>
-            <li><strong>Свойство 9:</strong> <i>a<sup>log<sub>b</sub> c</sup> = c<sup>log<sub>b</sub> a</sup></i></li>
-            <li><strong>Свойство 10:</strong> <i>log<sub>a</sub> b = log<sub>d</sub> b / log<sub>d</sub> a = 1 / log<sub>b</sub> a</i></li>
-            <li><strong>Свойство 11:</strong> <i>log<sub>a</sub> a<sup>n</sup> b<sup>n</sup> = log<sub>a</sub> b</i></li>
-            <li><strong>Свойство 12:</strong> <i>log<sub>a</sub> a<sup>k</sup> b<sup>n</sup> = n/k · log<sub>a</sub> b</i></li>
-            <li><strong>Свойство 13:</strong> <i>log<sub>a</sub> a<sup>k</sup> = 1/k · log<sub>a</sub> b</i></li>
+            <!-- Добавленные свойства -->
+            <li><strong>Свойство 6:</strong> <i>logₐ(b * c) = logₐ(b) + logₐ(c)</i> — логарифм произведения равен сумме логарифмов этих чисел.</li>
+            <li><strong>Свойство 7:</strong> <i>logₐ(b <sup>c</sup>) = c * logₐ(b)</i> — логарифм степени числа равен произведению степени на логарифм числа.</li>
+            <li><strong>Свойство 8:</strong> <i>logₐ(x) = logᵦ(x) / logᵦ(a)</i> — логарифм числа по основанию a можно выразить через логарифм того же числа по другому основанию b .</li>
+            <li><strong>Свойство 9:</strong> <i>logₐ(a <sup>x</sup>) = x</i> — логарифм числа, возведенного в степень x, по основанию этого числа равен самому показателю степени.</li>
+            <li><strong>Свойство 10:</strong> <i>logₐ(1 / x) = −logₐ(x)</i> — логарифм числа в дроби равен отрицательному логарифму этого числа.</li>
+            <li><strong>Свойство 11:</strong> <i>logₐ(x <sup>0</sup>) = 0</i> — логарифм числа, возведенного в степень 0, равен 0.</li>
+            <li><strong>Свойство 12:</strong> <i>logₐ(√x) = 1/n * logₐ(x)</i> — логарифм корня равен частному от деления логарифма подкоренного выражения на показатель корня</li>
+            <li><strong>Свойство 13:</strong> <i>logₐ(b) * logᵦ(a) = 1</i> — произведение логарифмов числа b по основанию a и логарифма числа a по основанию b всегда равно 1.</li>
         </ul>
     </section>
 
     <section id="examples">
         <h2>Примеры использования логарифмов</h2>
         <div class="example">
-            <p><strong>Пример 1:</strong> <i>log₂(8) = 3</i> — так как 2^3 = 8.</p>
-            <p><strong>Пример 2:</strong> <i>log₁₀(1000) = 3</i> — так как 10^3 = 1000.</p>
+            <p><strong>Пример 1:</strong> <i>log₂(8) = 3</i> — так как 2 <sup>3</sup> = 8.</p>
+            <p><strong>Пример 2:</strong> <i>log₁₀(1000) = 3</i> — так как 10 <sup>3</sup> = 1000.</p>
+            <p><strong>Пример 3:</strong> <i>log₈(64) = 2</i> — так как 8 возведение в степень 2 = 64.</p>
+            <p><strong>Пример 4:</strong> <i>log₅(25) = 2</i> — так как 5 возведение в степень 2 = 25.</p>
+            <p><strong>Пример 5:</strong> <i>log₁₀(0.01) = -2</i> — так как 10 возведение в степень -2 = 0.01.</p>
+            <p><strong>Пример 6:</strong> <i>log₂(16) = 4</i> — так как 2 возведение в степень 4 = 16.</p>
+            <p><strong>Пример 7:</strong> <i>log₁₀(100) = 2</i> — так как 10 возведение в степень 2 = 100.</p>
+            <p><strong>Пример 8:</strong> <i>log₋₁₀(1/1000) = -3</i> — так как 10 возведение в степень -3 = 1/1000.</p>
+            <p><strong>Пример 9:</strong> <i>log₂(32) = 5</i> — так как 2 возведение в степень 5 = 32.</p>
+            <p><strong>Пример 10:</strong> <i>log₁₀(1000000) = 6</i> — так как 10 возведение в степень 6 = 1000000.</p>
         </div>
     </section>
 
@@ -64,4 +75,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
